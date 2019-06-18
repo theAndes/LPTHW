@@ -1,15 +1,6 @@
 # Exercise 3: Numbers and Math
 # https://learnpythonthehardway.org/python3/ex3.html
 
-# + plus
-# - minus
-# / slash
-# * asterisk
-# % percent
-# < less-than
-# > greater-than
-# <= less-than-equal
-# >= greater-than-equal
 
 print("I will now count my chickens:")
 
