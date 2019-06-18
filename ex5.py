@@ -19,3 +19,17 @@ print(f"His teeth are usuall {my_teeth} depending on the coffee.")
 # this line is tricky, try to get it exactly right
 total = my_age + my_height + my_weight
 print(f"If I add {my_age}, {my_height}, and my {my_weight} I get {total}")
+
+
+def convert_in_to_cm(inches):
+    return print("Height converted from inches to centimeters:",
+                 round(inches * 2.54, 1), "cm")
+
+
+def convert_lbs_to_kilos(lbs):
+    return(print("Pounds convert to kilograms:",
+                 round(lbs * 0.453592, 1), "kg"))
+
+
+convert_in_to_cm(my_height)
+convert_lbs_to_kilos(my_weight)
