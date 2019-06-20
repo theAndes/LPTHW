@@ -25,7 +25,7 @@ def print_results(data):
         print(f"Date range of sample: {range.start_time} to {range.end_time}.")
     count = USGS["metadata"]["count"]
     print(f"There were "+str(count) +
-          " earthquakes in the last 24hrs. Below are of magnitude of 1 and felt by at least 2 people")
+          " earthquakes in the last 24hrs. Results are of a magnitude of at least 1.0 and felt by at least 1 person.")
     print("-"*10)
 
     for i in USGS["features"]:
