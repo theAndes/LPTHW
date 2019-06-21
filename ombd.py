@@ -15,11 +15,11 @@ def main():
             get_imbdID_of_movie()
         else:
             print(
-                f'You seacrhed {OMDB.baseURL} for the Movie "{OMDB.movie}". The imdbID for this movie is {imdbID}.')
+                f'{"*"*10} You seacrhed {OMDB.baseURL} for the Movie "{OMDB.movie}". The imdbID for this movie is {imdbID}.{"*"*10}')
             webURL = urllib.request.urlopen(
                 f"{OMDB.baseURL}?i={imdbID}&{OMDB.key}")
-            for key, val in json.loads(webURL.read()).items():
-                print(f'''{key}: {val}''')
+            for key, value in json.loads(webURL.read()).items():
+                print(f'''{key}: {value}''')
             print('-'*100)
 
     def get_imbdID_of_movie():
